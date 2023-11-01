@@ -1,0 +1,51 @@
+.active {
+  color: lightyellow;
+  text-decoration: none;
+}
+
+.activeLink {
+  color: lightyellow;
+  text-decoration: none;
+}
+
+.courseLink {
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.courseLink:hover {
+  text-decoration: underline;
+}
+
+a {
+  color: lightblue;
+  font-size: 35px;
+}
+
+aside {
+  background-color: darkslategray;
+  padding: 5px 4rem;
+  display: flex;
+  flex-direction: column;
+  width: 10rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+aside a {
+  margin: 15px;
+}
+
+h1 {
+  font-size: 90px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 15px;
+  font-size: 30px;
+  border-radius: 5px;
+  border: 0;
+  margin: 20px;
+  cursor: pointer;
+}
